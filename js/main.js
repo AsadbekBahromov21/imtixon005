@@ -1,4 +1,6 @@
 const navbar = document.querySelector(".navbar__collection")
+const navbarMenu = document.querySelector(".navbar__menu")
+const btnTop = document.querySelector(".top")
 const API__URL = "https://fakestoreapi.com"
 const skeleton = document.querySelector(".skeleton")
 const wrapper = document.querySelector(".wrapper")
@@ -82,6 +84,17 @@ wrapper.addEventListener("click", (e) => {
 function toggleShow() {
     navbar.classList.toggle("show")
 }
+navbarMenu.addEventListener("click",()=>{
+    toggleShow() 
+})
+window.addEventListener("scroll", ()=>{
+    let scrollValue = window.scrollY
+    if(scrollValue > 50){
+btnTop.style.bottom = "30px"
+    }else if(scrollValue <= 0){
+        btnTop.style.bottom = "-30px"
+    }
+})
 $('.owl-carousel').owlCarousel({
     loop: true,
     margin: 10,
