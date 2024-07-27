@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusive</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./images/Exclusive.png">
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <!-- summer-> classni figmani ozidan oldim -->
+        <div class="header__summer">
+            <div class="container">
+                <div class="header__for">
+                    <div class="header__theme">
+                        <p class="header__title">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</p>
+                        <a class="header__summer-a" href="#">ShopNow</a>
+                    </div>
+                    <select class="header__select" name="travel" id="travel">
+                        <option value="travel">English</option>
+                        <option value="travel">Russian</option>
+                        <option value="travel">UZb</option>
+                        <option value="travel">Tojik</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <nav class="navbar">
+                <div class="navbar__logo">
+                    <img src="./images/Exclusive.png" alt="">
+                </div>
+                <ul class="navbar__collection">
+                    <li class="navbar__item"><a class="item" href="#"><span>Home</span></a></li>
+                    <li class="navbar__item"><a class="item" href="#"><span>Contact</span></a></li>
+                    <li class="navbar__item"><a class="item" href="#"><span>About</span></a></li>
+                    <li class="navbar__item"><a class="item" href="#"><span>Sign in</span></a></li>
+                    <div class="navbar__search">
+                        <div class="navbar__input">
+                            <input class="navbar__inp" type="text" placeholder="What are you looking for?">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div class="navbar__icon">
+                            <i class="fa-solid fa-heart"></i>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                </ul>
+                <div onclick="toggleShow()" class="navbar__menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+        <hr>
+    </header>
+    <main>
+        <div class="container">
+            <div class="owl-carousel owl-theme">
+                <section class="hero">
+                    <div class="hero__wrapper">
+                        <div class="hero__box">
+                            <div class="hero__iphon">
+                                <div class="hero__foto">
+                                    <img class="hero__img" src="./images/iphon.png" alt="">
+                                </div>
+                                <p class="hero__title">iPhone 14 Series</p>
+                            </div>
+                            <p class="hero__up">Up to 10% off Voucher</p>
+                            <button class="hero__btr">Shop now -></button>
+                        </div>
+                        <div class="hero__images">
+                            <img src="./images/hero.png" alt="">
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <section class="catigores">
+            <div class="container">
+                <div class="catigores__theme">
+                    <p class="catigores__p">Categories</p>
+                    <p class="catigores__brovse">Browse By Category</p>
+                </div>
+                <div class="catigores__wrapper">
+                    <div class="catigores__box">
+                        <div class="catigores__img">
+                            <img src="./images/Category-CellPhone.png" alt="">
+                        </div>
+                        <p class="catigores__phones">Phones</p>
+                    </div>
+                    <div class="catigores__box">
+                        <div class="catigores__img">
+                            <img src="./images/Category-Computer.png" alt="">
+                        </div>
+                        <p class="catigores__phones">Computers</p>
+                    </div>
+                    <div class="catigores__box">
+                        <div class="catigores__img">
+                            <img src="./images/Category-SmartWatch.png" alt="">
+                        </div>
+                        <p class="catigores__phones">SmartWatch</p>
+                    </div>
+                    <div class="catigores__box">
+                        <div class="catigores__img">
+                            <img src="./images/Category-Camera.png" alt="">
+                        </div>
+                        <p class="catigores__phones">Camera</p>
+                    </div>
+                    <div class="catigores__box">
+                        <div class="catigores__img">
+                            <img src="./images/Category-Headphone.png" alt="">
+                        </div>
+                        <p class="catigores__phones">HeadPhones</p>
+                    </div>
+                    <div class="catigores__box">
+                        <div class="catigores__img">
+                            <img src="./images/Category-Gamepad.png" alt="">
+                        </div>
+                        <p class="catigores__phones">Gaming</p>
+                    </div>
+                </div>
+                <hr>
+            </div>`
+        </section>
+        <section class="menu">
+            <div class="container">
+                <p class="catigores__p">Our Products</p>
+                <div class="skeleton"> </div>
+                <div class="wrapper">
+
+                </div>
+                <button class="semore">View All Products</button>
+            </div>
+        </section>
+        <section class="music">
+            <div class="container">
+                <div class="music__wrapper">
+                    <div class="music__box">
+                        <p class="music__p">Categories</p>
+                        <p class="music__title">Enhance Your Music Experience</p>
+                        <div class="music__content">
+                            <div class="music__hours">
+                                <p>23</p>
+                                <p class="music__desc">Hours</p>
+                            </div>
+                            <div class="music__hours">
+                                <p>05</p>
+                                <p class="music__desc">Days</p>
+                            </div>
+                            <div class="music__hours">
+                                <p>59</p>
+                                <p class="music__desc">Minutes</p>
+                            </div>
+                            <div class="music__hours">
+                                <p>35</p>
+                                <p class="music__desc">Seconds</p>
+                            </div>
+                        </div>
+                        <button class="music__btr">Buy Now!</button>
+                    </div>
+                    <div class="music__images">
+                        <img src="./images/Frame 694.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="arrival">
+            <div class="container">
+                <div class="arrival__theme">
+                    <p class="arrival__title">Featured</p>
+                    <p class="arrival__desc">New Arrival</p>
+                </div>
+                <div class="arrival__wrapper">
+                    <div class="arrival__box">
+                        <img src="./images/ps5-slim-goedkope-playstation_large 1.png" alt="">
+                        <div class="arrival__play">
+                            <p class="arrival__model">PlayStation 5</p>
+                            <p class="arrival__info">Black and White version of the PS5 coming out on sale.</p>
+                            <button class="btr">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="arrival__content">
+                        <div class="arrival__women">
+                            <div class="arrival__woman">
+                                <p class="arrival__model">Women’s Collections</p>
+                                <p class="arrival__info">Featured woman collections that give you another vibe.</p>
+                                <buttton class="btr">Shop Now</buttton>
+                            </div>
+                            <img src="./images/attractive-woman-wearing-hat-posing-black-background 1.png" alt="">
+                        </div>
+                        <div class="arrival__speakers">
+                            <div class="arrival__frame">
+                                <img src="./images/Frame 707.png" alt="">
+                                <div class="arrival__Speakers">
+                                    <p class="arrival__model">Speakers</p>
+                                    <p class="arrival__info">Amazon wireless speakers</p>
+                                    <buttton class="btr">Shop Now</buttton>
+                                </div>
+                            </div>
+                            <div class="arrival__frame">
+                                <img src="./images/Frame 706.png" alt="">
+                                <div class="arrival__Perfume">
+                                    <p class="arrival__model">Perfume</p>
+                                    <p class="arrival__info">GUCCI INTENSE OUD EDP</p>
+                                    <buttton class="btr">Shop Now</buttton>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="free">
+            <div class="container">
+                <div class="free__wrapper">
+                    <div class="free__box">
+                        <div class="free__img">
+                            <img src="./images/Services.png" alt="">
+                            <div class="free__text">
+                                <p class="free__title">FREE AND FAST DELIVERY</p>
+                                <p class="free__p">Free delivery for all orders over $140</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="free__box">
+                        <div class="free__img">
+                            <img src="./images/Services (1).png" alt="">
+                            <div class="free__text">
+                                <p class="free__title">24/7 CUSTOMER SERVICE</p>
+                                <p class="free__p">Friendly 24/7 customer support</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="free__box">
+                        <div class="free__img">
+                            <img src="./images/Services (2).png" alt="">
+                            <div class="free__text">
+                                <p class="free__title">MONEY BACK GUARANTEE</p>
+                                <p class="free__p">We reurn money within 30 days</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <ul class="footer__collection">
+                    <li><a class="item href" href="#"><b>Exclusive</b></a></li>
+                    <li class="footer__item"><a class="item activ" href="#"><span>Subscribe</span></a></li>
+                    <li class="footer__item"><a class="item activ" href="#"><span>Get 10% off your first
+                                order</span></a></li>
+                    <div class="footer__inp">
+                        <input class="footer__input" type="text" placeholder="Enter your email">
+                        <i style="color: #ddd;" class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </ul>
+                <ul class="footer__collection">
+                    <li><a class="item href" href="#"><b>Support</b></a></li>
+                    <li class="footer__item"><a class="item activ" href="#"><span>111 Bijoy sarani, Dhaka, DH 1515,
+                                Bangladesh.</span></a></li>
+                    <li class="footer__item"><a class="item activ" href="#"><span>exclusive@gmail.com</span></a></li>
+                    <li class="footer__item"><a class="item activ" href="#"><span>+88015-88888-9999</span></a></li>
+
+                </ul>
+                <ul class="footer__collection account">
+                    <li><a class="item href" href="#"><b>Account</b></a></li>
+                    <li class="footer__item"><a class="item activ" href="#"><span>My Account</span></a></li>
+                    <li class="footer__item"><a class="item activ" href="#"><span>Login / Register</span></a></li>
+                    <li class="footer__item"><a class="item activ" href="#"><span>Cart</span></a></li>
+                    <li class="footer__item"><a class="item activ" href="#"><span>Wishlist</span></a></li>
+                    <li class="footer__item"><a class="item activ" href="#"><span>Shop</span></a></li>
+                </ul>
+                <ul class="footer__collection link">
+                    <li><a class="item href" href="#"><b>Quick Link</b></a></li>
+                    <li class="footer__item"><a class="item activ" href="#"><span>Privacy Policy</span></a></li>
+                    <li class="footer__item"><a class="item activ" href="#"><span>Terms Of Use</span></a></li>
+                    <li class="footer__item"><a class="item activ" href="#"><span>FAQ</span></a></li>
+                    <li class="footer__item"><a class="item activ" href="#"><span>Contact</span></a></li>
+                </ul>
+                <ul class="footer__collection">
+                    <li><a class="item href" href="#"><b>Download App</b></a></li>
+                    <p class="footer__p">Save $3 with App New User Only</p>
+                    <div class="footer__cvorcod">
+                        <img src="./images/Qr Code.png" alt="">
+                        <div class="footer__gmail">
+                            <img src="./images/GooglePlay.png" alt="">
+                            <img src="./images/download-appstore.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer__icon">
+                        <i style="color: #fff;" class="fa-brands fa-facebook"></i>
+                        <i style="color: #fff;" class="fa-brands fa-twitter"></i>
+                        <i style="color: #fff;" class="fa-brands fa-instagram"></i>
+                        <i style="color: #fff;" class="fa-brands fa-linkedin"></i>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="footer__foto">
+                <img src="./images/icon-copyright.png" alt="">
+                <p class="footer__desc">Copyright Rimel 2022. All right reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
